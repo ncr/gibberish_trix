@@ -1,0 +1,47 @@
+GibberishTrix
+=============
+
+1. Define a method #current_language in your ApplicationController. It should return current language as a string or better a symbol to be used by Gibberish (:de, :en, :pl, whatever you like).
+
+2. Learn how to use Gibberish. Put your translations of the following in your lang/something.yml.
+
+error_inclusion: "is not included in the list"
+error_exclusion: "is reserved"
+error_invalid: "is invalid"
+error_confirmation: "doesn't match confirmation"
+error_accepted : "must be accepted"
+error_empty: "can't be empty"
+error_blank: "can't be blank"
+error_too_long: "is too long (maximum is %d characters)"
+error_too_short: "is too short (minimum is %d characters)"
+error_wrong_length: "is the wrong length (should be %d characters)"
+error_taken: "has already been taken"
+error_not_a_number: "is not a number"
+error_greater_than: "must be greater than %d"
+error_greater_than_or_equal_to: "must be greater than or equal to %d"
+error_equal_to: "must be equal to %d"
+error_less_than: "must be less than %d"
+error_less_than_or_equal_to: "must be less than or equal to %d"
+error_odd: "must be odd"
+error_even: "must be even"
+
+3. Translate your tables/columns. Given you have posts table with title and body and people table with name and body:
+
+attr_post_title: Post title
+attr_post_body: Post body
+attr_person_name: Your name
+attr_person_body: Your body
+
+4. Enjoy error messages (in your favourite language) like this: 
+
+Post title can't be blank
+
+or
+
+Your name is not included in the list
+
+or
+
+Your body has already been taken
+
+Copyright (c) 2008 Jacek Becela, released under the MIT license
