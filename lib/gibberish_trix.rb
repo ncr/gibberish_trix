@@ -29,7 +29,6 @@ module GibberishTrix
     end
 
   end
-  ActionController::Base.send!(:include, ActionControllerExt)
   
   module ActiveRecordExt
 
@@ -45,6 +44,5 @@ module GibberishTrix
     end
 
   end
-  ActiveRecord::Base.send!(:include, ActiveRecordExt)
   
 end
