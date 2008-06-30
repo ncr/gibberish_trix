@@ -11,7 +11,7 @@ module GibberishTrix
         Rails.logger.warn("GibberishTrix: Method #current_language not defined in ApplicationController")
         yield
       elsif current_language.blank?
-        Rails.logger.warn("GibberishTrix: Method #current_languge returned blank")
+        Rails.logger.warn("GibberishTrix: Method #current_language returned blank")
         yield
       else
         Gibberish.use_language(current_language) do
