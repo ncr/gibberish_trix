@@ -5,7 +5,7 @@ GibberishTrix
 
 1. Define a method #current_language in your ApplicationController. It should return current language as a string or better a symbol to be used by Gibberish (:de, :en, :pl, whatever you like).
 
-2. Learn how to use Gibberish. Put your translations of the following in your lang/something.yml.
+2. Install Gibberish and learn how to use it. Put your translations of the following in your lang/something.yml.
 
 error_inclusion: "is not included in the list"
 error_exclusion: "is reserved"

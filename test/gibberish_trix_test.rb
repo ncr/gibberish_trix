@@ -1,6 +1,6 @@
 require 'test/unit'
 
-# these are needed for bang version of #send (which will is not part of Ruby 1.8)
+# these are needed for bang version of #send (which is not part of Ruby 1.8)
 require 'rubygems'
 require 'active_support'
 
